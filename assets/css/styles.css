@@ -2,14 +2,14 @@ body {
   /*TODO Better font.*/
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding-top: 114px;
+  padding-top: 130px;
   color: #333333;
 }
 
 .anchor {
   display: block;
-  height: 114px; /*same height as header*/
-  margin-top: -114px; /*same height as header*/
+  height: 130px; /*same height as header*/
+  margin-top: -130px; /*same height as header*/
   visibility: hidden;
 }
 
@@ -41,12 +41,13 @@ body {
 }
 
 .header__brandTitle {
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .header__brandTagline {
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 .nav {
@@ -58,10 +59,10 @@ body {
 .nav__link,
 .nav__link:active,
 .nav__link:visited {
-  font-weight: 500;
+  font-weight: bold;
   display: block;
   text-decoration: none;
-  font-size: 1.1rem;
+  font-size: 1.0rem;
   margin: 10px;
   color: #333;
   transition: color 0.3s;
@@ -88,22 +89,25 @@ body {
   flex-grow: 1;
 }
 
-.gallery__itemImage {
-  height: 200px;
+.gallery__itemImageContainer {
   width: 100%;
-  background: #777;
-  opacity: 0.2;
   transition: opacity 0.3s;
+  text-align: center;
 }
 
-.gallery__item:hover .gallery__itemImage {
-  opacity: 1;
+.gallery__item:hover .gallery__itemImageContainer {
+  opacity: 0.7;
+}
+
+.gallery__itemImage {
+  width: 100%;
 }
 
 .gallery__itemTitle {
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
   margin: 16px 0;
+
 }
 
 .gallery__itemTitle::after {
@@ -137,4 +141,28 @@ body {
   width: 60%;
   margin: 0 auto;
   line-height: 1.7;
+}
+
+
+.breadcrumbs {
+  font-size: 0.9rem;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.breadcrumbs__link,
+.breadcrumbs__link:active,
+.breadcrumbs__link:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #333333;
+}
+
+.breadcrumbs__divider {
+  padding: 0 8px;
+}
+
+.breadcrumbs__page {
+  color: #888888;
+  font-weight: lighter;
 }
