@@ -15,11 +15,16 @@
   background-color: blue;
 }
 
-.profile__title {
-  font-weight: bold;
-}
-
 .profile__info {
   padding: 0 30px;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+.profile__title {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.profile__body {
+  font-size: 1.2rem;
 }
