@@ -2,19 +2,19 @@ body {
   /*TODO Better font.*/
   font-family: 'Lato', sans-serif;
   margin: 0;
-  padding-top: 130px;
+  padding-top: 87px;
   color: #333333;
 }
 
 .anchor {
   display: block;
-  height: 130px; /*same height as header*/
-  margin-top: -130px; /*same height as header*/
+  height: 87px; /* Ensure this is the same height as header */
+  margin-top: -87px; /* Ensure this is the same height as header */
   visibility: hidden;
 }
 
 .container {
-  width: 85%;
+  width: 100%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -41,12 +41,7 @@ body {
 }
 
 .header__brandTitle {
-  font-size: 3rem;
-  font-weight: bold;
-}
-
-.header__brandTagline {
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -72,97 +67,28 @@ body {
   color: #aaa;
 }
 
-.gallery {
-  margin-top: 50px;
-}
-
-.gallery__row {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 32px;
-}
-
-.gallery__item {
-  display: block;
-  text-decoration: none;
-  color: #333333;
-  flex-grow: 1;
-}
-
-.gallery__itemImageContainer {
-  width: 100%;
-  transition: opacity 0.3s;
+.hero__text {
+  font-size: 3rem;
   text-align: center;
-}
-
-.gallery__item:hover .gallery__itemImageContainer {
-  opacity: 0.7;
-}
-
-.gallery__itemImage {
-  width: 100%;
-}
-
-.gallery__itemTitle {
+  padding: 180px 0;
   font-weight: bold;
-  text-align: center;
-  margin: 16px 0;
-
-}
-
-.gallery__itemTitle::after {
-  content: '';
-  display: block;
-  width: 7%;
+  max-width: 600px;
   margin: 0 auto;
-  margin-top: 10px;
-  border-bottom: 1px solid #888;
-  transition: width 0.3s;
 }
 
-.gallery__item:hover .gallery__itemTitle::after {
-  width: 30%;
-}
+/* Typography */
 
-.about {
-  background: #f7f7f7;
-  text-align: center;
-  padding: 80px;
-}
-
-.about__title {
-  font-weight: bold;
-  font-size: 2rem;
-  margin-bottom: 32px;
-}
-
-.about__info {
-  font-size: 1.3rem;
-  width: 60%;
-  margin: 0 auto;
+.text {
   line-height: 1.7;
+  font-size: 1rem;
+  color: #666666;
+  text-align: justify;
 }
 
-
-.breadcrumbs {
-  font-size: 0.9rem;
-  margin-top: 30px;
-  font-weight: bold;
+.text p:first-child {
+  margin-top: 0;
 }
 
-.breadcrumbs__link,
-.breadcrumbs__link:active,
-.breadcrumbs__link:visited {
-  font-weight: bold;
-  text-decoration: none;
-  color: #333333;
-}
-
-.breadcrumbs__divider {
-  padding: 0 8px;
-}
-
-.breadcrumbs__page {
-  color: #888888;
-  font-weight: lighter;
+a {
+  color: #666666;
 }
