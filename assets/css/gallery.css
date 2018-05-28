@@ -1,5 +1,5 @@
 .gallery {
-  margin: 50px 0;
+  margin-bottom: 50px;
 }
 
 .gallery__row {
@@ -43,6 +43,13 @@
 .gallery__item:hover .gallery__itemTitle {
   opacity: 1;
   transform: scale(1);
+}
+
+/* Responsive */
+@media only screen and (max-width: 580px) {
+  .gallery__row {
+    flex-direction: column;
+  }
 }
 
 /* Animations */
