@@ -142,6 +142,9 @@ body {
   margin-top: 0;
 }
 
-a {
+a,
+a:visited,
+a:link,
+a:active {
   color: #666666;
 }
