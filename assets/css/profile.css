@@ -9,6 +9,7 @@
 .profile__imageContainer {
   padding-top: 8px;
   flex-basis: 40%;
+  margin-right: 30px;
 }
 
 .profile__imageReference {
@@ -26,7 +27,6 @@
 }
 
 .profile__info {
-  padding: 0 30px;
   line-height: 1.7;
 }
 
