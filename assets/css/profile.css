@@ -44,7 +44,7 @@
 
 /* Animations */
 .hero,
-.profile__image,
+.profile__imageContainer,
 .profile__title,
 .profile__body p {
   opacity: 0;
