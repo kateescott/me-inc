@@ -11,6 +11,11 @@
   flex-basis: 40%;
 }
 
+.profile__imageReference {
+  font-size: 10px;
+  text-align: center;
+}
+
 .profile__info {
   flex-grow: 1;
   flex-basis: 60%;
